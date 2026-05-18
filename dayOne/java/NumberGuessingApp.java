@@ -5,12 +5,9 @@ public class NumberGuessingApp{
         java.util.Random random = new java.util.Random();
         
         
-        double guessNum = inputCollector.nextInt();
-        // double secretNumber = random.Random();
-        
-        
-        double secretNum = Math.floor(Math.random() * 100 + 1);
-        
+        int guessNum = inputCollector.nextInt();
+        int secretNum = random.nextInt(100);
+        // System.out.println(secretNum);
         
         
         int count = 0;
