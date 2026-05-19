@@ -1,0 +1,18 @@
+public class TaskFour{
+    public static void main(String[] args){
+        
+        java.util.Scanner inputCollector = new java.util.Scanner(System.in);
+        
+        System.out.print("enter number: ");
+        int numberOne = inputCollector.nextInt();
+        
+        System.out.print("enter number: ");
+        int numberTwo = inputCollector.nextInt();
+        
+        if(numberOne > numberTwo){
+            System.out.printf("%d is the largest", numberOne);
+        } else{
+            System.out.printf("%d is the largest", numberTwo);
+        }
+    }
+}
