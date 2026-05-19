@@ -1,0 +1,11 @@
+public class LevelFive{
+    
+    
+    public static void main(String[] args){
+        int[] myArray = {1,2,3,4,5,6,7};
+        
+        for(int index = 0; index <= myArray.length; index++){
+            System.out.println(myArray[index]);
+        }
+    }
+}
