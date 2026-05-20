@@ -1,0 +1,12 @@
+// create an array that collects strings of names
+// user should enter string of name that would then be stored in the array
+// if the array.length has an empty value, display "no one likes this"
+// if array.length now has one value, display message "value likes this"
+// array must always return a value, which is the display text
+
+
+public class FacebookLikeCounter{
+    public static void main(String[] args){
+        
+    }
+}
