@@ -1,0 +1,41 @@
+public class TaskOne{
+
+    public static int[] getArrayInt(int[] array, int number){
+        
+        // minimum test to make my test pass as expected
+        
+        // int[] newArray = {8,-2};
+        
+        int[] newArray = new int[2];
+                
+        int count = 0;
+        
+        for(int index = 0; index < array.length; index++){
+
+            for(int indexAt = index + 1; indexAt < newArray.length; indexAt++){
+            
+                if(array[index] + array[indexAt] == number){
+                
+                    newArray[count] = array[indexAt];
+                    count += 1;
+                    
+                    newArray[count] = array[index];
+                }
+                
+                else break;
+            }
+                
+        }
+        
+        return newArray;
+        
+    }
+
+}
+
+
+
+// my checklist
+// test has passed number one with a minimum code as intended
+// test has failed again with required code written.. It seems as though it would do fine, but something in my method isn't right
+
